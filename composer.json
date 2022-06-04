@@ -1,0 +1,33 @@
+{
+    "name": "super-simple/http-server-handler",
+    "description": "Super Simple HTTP Server Handler library implmenting the PSR-15 standard.",
+    "type": "library",
+    "keywords": ["http server handler", "psr-15"],
+    "license": "MIT",
+    "authors": [
+       {
+            "name": "Aleksandar Todorov",
+            "email": "aleksandr.todorov@gmail.com"
+       }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SSHTTPServerHandler\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SSHTTPServerHandler\\UnitTest\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0",
+        "psr/http-server-handler": ">=1.0.0",
+        "psr/http-server-middleware": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
