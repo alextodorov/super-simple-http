@@ -1,2 +1,2 @@
 # super-simple-http-handler
-Super Simple Http library implementing the PSR-15.
+Super Simple HTTP Handler library implementing the PSR-15.
