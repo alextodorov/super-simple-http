@@ -1,4 +1,4 @@
-# Super Simple Http H`~andler
+# Super Simple Http Handler
 
 A Super Simple HTTP Handler library implementing the PSR-15.
 
